@@ -3072,10 +3072,10 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .tooltip::after {
-  background: rgba(0, 0, 0, .95);
+  background: rgba(20, 20, 20, .97);
   border-radius: .1rem;
   bottom: 100%;
-  color: #000;
+  color: #faff66;
   content: attr(data-tooltip);
   display: block;
   font-size: .7rem;
