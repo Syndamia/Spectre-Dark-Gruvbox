@@ -3164,7 +3164,6 @@ a.text-error:visited {
 
 .bg-primary {
   background: #5755d9 !important;
-  color: #000;
 }
 
 .bg-secondary {
@@ -3178,22 +3177,18 @@ a.text-error:visited {
 
 .bg-gray {
   background: #0d0d0d !important;
-  color: #000;
 }
 
 .bg-success {
   background: #32b643 !important;
-  color: #000;
 }
 
 .bg-warning {
   background: #ffb700 !important;
-  color: #000;
 }
 
 .bg-error {
   background: #e85600 !important;
-  color: #000;
 }
 
 .c-hand {

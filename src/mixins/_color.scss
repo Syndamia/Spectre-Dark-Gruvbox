@@ -3,8 +3,8 @@
   #{$name} {
     background: $color !important;
 
-    @if (lightness($color) < 60) {
-      color: $light-color;
+    @if (lightness($color) < 5) {
+      color: darken($light-color, 80%);
     }
   }
 }
