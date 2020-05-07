@@ -430,11 +430,13 @@ kbd {
 }
 
 mark {
-  background: #fff000;
-  border-bottom: .05rem solid #b3a800;
+  background: #f6ec59;
+  border-bottom: .05rem solid #4c4704;
   border-radius: .1rem;
+  border-right: .05rem solid #7c7507;
   color: #1a1919;
-  padding: .05rem .1rem 0;
+  color: #423819; 
+  padding: .05rem .1rem .05rem .1rem;
 }
 
 blockquote {

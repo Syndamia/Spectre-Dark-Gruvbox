@@ -106,9 +106,11 @@ kbd {
 
 mark {
   @include label-variant($body-font-dark, $highlight-color);
-  border-bottom: $unit-o solid darken($highlight-color, 15%);
+  border-right: $unit-o solid darken($highlight-color, 40%);
+  border-bottom: $unit-o solid darken($highlight-color, 50%);
   border-radius: $border-radius;
-  padding: $unit-o $unit-h 0;
+  padding: $unit-o $unit-h $unit-o $unit-h;
+  color: #423819;
 }
 
 // Blockquote
