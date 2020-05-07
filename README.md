@@ -1,5 +1,5 @@
 <a href="https://kingajax.github.io/spectre-dark">
-  <img src="https://kingajax.github.io/spectre-dark/img/spectre-logo.svg" width="72" height="72">
+  <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
 </a>
 
 ## Spectre.css
