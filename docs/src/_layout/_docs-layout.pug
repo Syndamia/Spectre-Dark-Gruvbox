@@ -16,12 +16,14 @@ block content
         if slug != parent
           a.docs-logo(href='../index.html')
             img(src='../img/spectre-logo.svg' alt='Spectre.css CSS Framework')
-            h2 SPECTRE
+            h2 SPECTRE DARK
+            br
             small.label.label-secondary.text-bold DOCS
         else
           a.docs-logo(href='index.html')
-            img(src='img/spectre-logo.svg' alt='Spectre.css CSS Framework')
-            h2 SPECTRE
+            img(src='img/spectre-logo.svg' alt='Spectre.css CSS Framework—now at dark')
+            h2 SPECTRE DARK
+            br
             small.label.label-secondary.text-bold DOCS
       .docs-nav
         .accordion-container
@@ -104,7 +106,7 @@ block content
             {url: 'sliders', name: 'Sliders'},
             {url: 'timelines', name: 'Timelines'}
           )
-  
+
     a.off-canvas-overlay(href='#close')
     .off-canvas-content
       #content.docs-content
@@ -112,9 +114,9 @@ block content
 
   script(type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js")
   script.
-    docsearch({ 
-    apiKey: 'bede06373c5a1fa3c1bbe8401e24c653', 
-    indexName: 'picturepan2_spectre', 
-    inputSelector: '.docs-search', 
+    docsearch({
+    apiKey: 'bede06373c5a1fa3c1bbe8401e24c653',
+    indexName: 'picturepan2_spectre',
+    inputSelector: '.docs-search',
     debug: true
-    }); 
+    });

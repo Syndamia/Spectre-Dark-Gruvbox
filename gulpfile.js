@@ -11,6 +11,29 @@ var paths = {
   doc: './docs/src/scss/*.scss'
 };
 
+function docsScss() {
+  return gulp.src(paths.source)
+  .pipe(sass({outputStyle: 'compact', precision: 10})
+    .on('error', sass.logError)
+  )
+  .pipe(autoprefixer())
+  .pipe(csscomb())
+  .pipe(gulp.dest('./docs/dist'))
+  .pipe(cleancss())
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(gulp.dest('./docs/dist'));
+}
+
+function docsPug() {
+  return gulp.src('docs/src/**/!(_)*.pug')
+    .pipe(pug({
+      pretty: true
+    }))
+    .pipe(gulp.dest('./docs/'));
+}
+
 function docs () {
 
   return gulp.src(paths.doc)
@@ -24,24 +47,7 @@ function docs () {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./docs/dist'))
-    .pipe(gulp.src(paths.source))
-    .pipe(sass({outputStyle: 'compact', precision: 10})
-      .on('error', sass.logError)
-    )
-    .pipe(autoprefixer())
-    .pipe(csscomb())
-    .pipe(gulp.dest('./docs/dist'))
-    .pipe(cleancss())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('./docs/dist'))
-    .pipe(gulp.src('docs/src/**/!(_)*.pug'))
-    .pipe(pug({
-      pretty: true
-    }))
-    .pipe(gulp.dest('./docs/'));
+    .pipe(gulp.dest('./docs/dist'));
 }
 
 function build() {
@@ -61,9 +67,9 @@ function build() {
 
 }
 
-function watch ()
+function watch()
 {
-  return gulp.watch(["./**/*.scss", "./**/*.pug"], gulp.parallel(build, docs));
+  return gulp.watch(["./**/*.scss", "./**/*.pug"], gulp.parallel(build, docs, docsPug, docsScss));
 }
 
 exports.watch = watch;
