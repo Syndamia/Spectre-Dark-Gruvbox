@@ -74,7 +74,7 @@
 
 .docs-sidebar .accordion .menu .menu-item > a {
   background: transparent;
-  color: #404040;
+  color: #737373;
   display: inline-block;
 }
 
@@ -337,7 +337,7 @@
 }
 
 .docs-footer a {
-  color: #404040;
+  color: #737373;
 }
 
 .docs-ad {
@@ -359,7 +359,7 @@
 }
 
 .docs-ad .carbon-wrap .carbon-text {
-  color: #404040;
+  color: #737373;
   display: block;
   font-size: .7rem;
 }
@@ -416,7 +416,7 @@
 }
 
 .section-footer a {
-  color: #404040;
+  color: #737373;
 }
 
 .grid-hero {
@@ -887,7 +887,7 @@
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--text {
-  color: #404040; 
+  color: #737373; 
   display: block;
   font-size: .85em;
   line-height: 1.2em;

@@ -1,10 +1,10 @@
-<a href="https://picturepan2.github.io/spectre">
-  <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
+<a href="https://kingajax.github.io/spectre-dark">
+  <img src="https://kingajax.github.io/spectre-dark/img/spectre-logo.svg" width="72" height="72">
 </a>
 
 ## Spectre.css
 
-Spectre.css is a lightweight, responsive and modern CSS framework.
+Spectre.css is a lightweight, responsive and modern CSS framework—Now in Dark.
 
 - Lightweight (~10KB gzipped) starting point for your projects
 - Flexbox-based, responsive and mobile-friendly layout
@@ -12,7 +12,7 @@ Spectre.css is a lightweight, responsive and modern CSS framework.
 
 Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with Sass/Scss compiler.
 
-Spectre.css is completely free to use. If you enjoy it, please consider [donating via Paypal](https://www.paypal.me/picturepan2) or [via Patreon](https://www.patreon.com/spectrecss) for the further development. ♥ 
+Spectre.css is completely free to use.
 
 
 ## Getting started
@@ -20,7 +20,7 @@ Spectre.css is completely free to use. If you enjoy it, please consider [donatin
 There are 5 ways to get started with Spectre CSS framework in your projects. You can either manually install or use NPM, Yarn and Bower.
 
 ### Install manually
-Download the compiled and minified [Spectre CSS files](https://github.com/picturepan2/spectre/tree/master/docs/dist). And include `spectre.css` located in `/docs/dist` in your website or Web app &lt;head&gt; part.
+Download the compiled and minified [Spectre CSS files](https://github.com/kingajax/spectre-dark/tree/master/docs/dist). And include `spectre.css` located in `/docs/dist` in your website or Web app &lt;head&gt; part.
 
 `<link rel="stylesheet" href="spectre.min.css">`
 
@@ -40,65 +40,65 @@ Alternatively, you can use the [unpkg](https://unpkg.com/) or [cdnjs](https://cd
 
 ## Compiling custom version
 
-You can compile your custom version of Spectre.css. Read [the documentation](https://picturepan2.github.io/spectre/getting-started/custom.html).
+You can compile your custom version of Spectre.css. Read [the documentation](https://kingajax.github.io/Spectre-Dark/getting-started/custom.html).
 
 ## Documentation and examples
 
 ### Elements
 
-- [Typography](https://picturepan2.github.io/spectre/elements/typography.html)
-- [Tables](https://picturepan2.github.io/spectre/elements/tables.html)
-- [Buttons](https://picturepan2.github.io/spectre/elements/buttons.html)
-- [Forms](https://picturepan2.github.io/spectre/elements/forms.html)
+- [Typography](https://kingajax.github.io/spectre-dark/elements/typography.html)
+- [Tables](https://kingajax.github.io/spectre-dark/elements/tables.html)
+- [Buttons](https://kingajax.github.io/spectre-dark/elements/buttons.html)
+- [Forms](https://kingajax.github.io/spectre-dark/elements/forms.html)
 - [Icons.css](https://picturepan2.github.io/icons.css) - CSS ONLY
-- [Labels](https://picturepan2.github.io/spectre/elements/labels.html)
-- [Code](https://picturepan2.github.io/spectre/elements/code.html)
-- [Media](https://picturepan2.github.io/spectre/elements/media.html)
+- [Labels](https://kingajax.github.io/spectre-dark/elements/labels.html)
+- [Code](https://kingajax.github.io/spectre-dark/elements/code.html)
+- [Media](https://kingajax.github.io/spectre-dark/elements/media.html)
 
 ### Layout
-- [Flexbox grid](https://picturepan2.github.io/spectre/layout/grid.html) 
-- [Responsive](https://picturepan2.github.io/spectre/layout/responsive.html)
-- [Hero](https://picturepan2.github.io/spectre/layout/hero.html)
-- [Navbar](https://picturepan2.github.io/spectre/layout/navbar.html)
+- [Flexbox grid](https://kingajax.github.io/spectre-dark/layout/grid.html)
+- [Responsive](https://kingajax.github.io/spectre-dark/layout/responsive.html)
+- [Hero](https://kingajax.github.io/spectre-dark/layout/hero.html)
+- [Navbar](https://kingajax.github.io/spectre-dark/layout/navbar.html)
 
 ### Components
-- [Accordions](https://picturepan2.github.io/spectre/components/accordions.html)
-- [Avatars](https://picturepan2.github.io/spectre/components/avatars.html)
-- [Badges](https://picturepan2.github.io/spectre/components/badges.html)
-- [Breadcrumbs](https://picturepan2.github.io/spectre/components/breadcrumbs.html)
-- [Bars](https://picturepan2.github.io/spectre/components/bars.html)
-- [Cards](https://picturepan2.github.io/spectre/components/cards.html)
-- [Chips](https://picturepan2.github.io/spectre/components/chips.html)
-- [Empty states](https://picturepan2.github.io/spectre/components/empty.html)
-- [Menu](https://picturepan2.github.io/spectre/components/menu.html)
-- [Nav](https://picturepan2.github.io/spectre/components/nav.html)
-- [Modals](https://picturepan2.github.io/spectre/components/modals.html)
-- [Pagination](https://picturepan2.github.io/spectre/components/pagination.html)
-- [Panels](https://picturepan2.github.io/spectre/components/panels.html)
-- [Popovers](https://picturepan2.github.io/spectre/components/popovers.html)
-- [Steps](https://picturepan2.github.io/spectre/components/steps.html)
-- [Tabs](https://picturepan2.github.io/spectre/components/tabs.html)
-- [Tiles](https://picturepan2.github.io/spectre/components/tiles.html)
-- [Toasts](https://picturepan2.github.io/spectre/components/toasts.html)
-- [Tooltips](https://picturepan2.github.io/spectre/components/tooltips.html)
+- [Accordions](https://kingajax.github.io/spectre-dark/components/accordions.html)
+- [Avatars](https://kingajax.github.io/spectre-dark/components/avatars.html)
+- [Badges](https://kingajax.github.io/spectre-dark/components/badges.html)
+- [Breadcrumbs](https://kingajax.github.io/spectre-dark/components/breadcrumbs.html)
+- [Bars](https://kingajax.github.io/spectre-dark/components/bars.html)
+- [Cards](https://kingajax.github.io/spectre-dark/components/cards.html)
+- [Chips](https://kingajax.github.io/spectre-dark/components/chips.html)
+- [Empty states](https://kingajax.github.io/spectre-dark/components/empty.html)
+- [Menu](https://kingajax.github.io/spectre-dark/components/menu.html)
+- [Nav](https://kingajax.github.io/spectre-dark/components/nav.html)
+- [Modals](https://kingajax.github.io/spectre-dark/components/modals.html)
+- [Pagination](https://kingajax.github.io/spectre-dark/components/pagination.html)
+- [Panels](https://kingajax.github.io/spectre-dark/components/panels.html)
+- [Popovers](https://kingajax.github.io/spectre-dark/components/popovers.html)
+- [Steps](https://kingajax.github.io/spectre-dark/components/steps.html)
+- [Tabs](https://kingajax.github.io/spectre-dark/components/tabs.html)
+- [Tiles](https://kingajax.github.io/spectre-dark/components/tiles.html)
+- [Toasts](https://kingajax.github.io/spectre-dark/components/toasts.html)
+- [Tooltips](https://kingajax.github.io/spectre-dark/components/tooltips.html)
 
 ### Utilities
 
-- [Utilities](https://picturepan2.github.io/spectre/utilities.html) - colors, display, divider, loading, position, shapes and text utilities
+- [Utilities](https://kingajax.github.io/spectre-dark/utilities.html) - colors, display, divider, loading, position, shapes and text utilities
 
 ### Experimentals
-- [360-Degree Viewer](https://picturepan2.github.io/spectre/experimentals/viewer-360.html) - CSS ONLY
-- [Autocomplete](https://picturepan2.github.io/spectre/experimentals/autocomplete.html)
-- [Calendars](https://picturepan2.github.io/spectre/experimentals/calendars.html)
-- [Carousels](https://picturepan2.github.io/spectre/experimentals/carousels.html) - CSS ONLY
-- [Comparison Sliders](https://picturepan2.github.io/spectre/experimentals/comparison.html) - CSS ONLY
-- [Filters](https://picturepan2.github.io/spectre/experimentals/filters.html) - CSS ONLY
-- [Meters](https://picturepan2.github.io/spectre/experimentals/meters.html)
-- [Off-canvas](https://picturepan2.github.io/spectre/experimentals/off-canvas.html) - CSS ONLY
-- [Parallax](https://picturepan2.github.io/spectre/experimentals/parallax.html) - CSS ONLY
-- [Progress](https://picturepan2.github.io/spectre/experimentals/progress.html)
-- [Sliders](https://picturepan2.github.io/spectre/experimentals/sliders.html)
-- [Timelines](https://picturepan2.github.io/spectre/experimentals/timelines.html)
+- [360-Degree Viewer](https://kingajax.github.io/spectre-dark/experimentals/viewer-360.html) - CSS ONLY
+- [Autocomplete](https://kingajax.github.io/spectre-dark/experimentals/autocomplete.html)
+- [Calendars](https://kingajax.github.io/spectre-dark/experimentals/calendars.html)
+- [Carousels](https://kingajax.github.io/spectre-dark/experimentals/carousels.html) - CSS ONLY
+- [Comparison Sliders](https://kingajax.github.io/spectre-dark/experimentals/comparison.html) - CSS ONLY
+- [Filters](https://kingajax.github.io/spectre-dark/experimentals/filters.html) - CSS ONLY
+- [Meters](https://kingajax.github.io/spectre-dark/experimentals/meters.html)
+- [Off-canvas](https://kingajax.github.io/spectre-dark/experimentals/off-canvas.html) - CSS ONLY
+- [Parallax](https://kingajax.github.io/spectre-dark/experimentals/parallax.html) - CSS ONLY
+- [Progress](https://kingajax.github.io/spectre-dark/experimentals/progress.html)
+- [Sliders](https://kingajax.github.io/spectre-dark/experimentals/sliders.html)
+- [Timelines](https://kingajax.github.io/spectre-dark/experimentals/timelines.html)
 
 ## Browser support
 Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:
@@ -112,4 +112,4 @@ Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make mos
 
 Spectre supports Internet Explorer 10+, but some HTML5 and CSS3 features are not perfectly supported by Internet Explorer.
 
-Designed and built with ♥ by [Yan Zhu](https://twitter.com/picturepan2). Feel free to submit a pull request. Help is always appreciated.
+Designed and built with ♥ by [Yan Zhu](https://twitter.com/picturepan2) and modified by [kingajax](https://github.com/kingajax/spectre-dark). Feel free to submit a pull request. Help is always appreciated.

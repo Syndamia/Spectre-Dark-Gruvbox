@@ -23,8 +23,9 @@
   }
   &:focus,
   &:hover {
-    background: $secondary-color;
-    border-color: $primary-color-dark;
+    background: none;
+    border-color: #90acff;
+    color: #5a9bf0;
     text-decoration: none;
   }
   &:active,

@@ -48,7 +48,41 @@ h6,
 // Paragraphs
 p {
   margin: 0 0 $line-height;
+  color: darken($body-font-color, 2%);
 }
+
+h1.accent,
+h2.accent,
+h3.accent,
+h4.accent,
+h5.accent,
+span.accent,
+p.accent {
+  color: $body-font-color-accent !important;
+}
+
+h1.accent-2,
+h2.accent-2,
+h3.accent-2,
+h4.accent-2,
+h5.accent-2,
+h6.accent-2,
+span.accent-2,
+p.accent-2 {
+  color: $body-font-color-accent2 !important;
+}
+
+h1.accent-3,
+h2.accent-3,
+h3.accent-3,
+h4.accent-3,
+h5.accent-3,
+h6.accent-3,
+span.accent-3,
+p.accent-3 {
+  color: $body-font-color-accent2 !important;
+}
+
 
 // Semantic text elements
 a,

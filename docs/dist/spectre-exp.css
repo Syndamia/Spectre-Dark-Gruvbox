@@ -96,7 +96,7 @@
 }
 
 .calendar .calendar-body {
-  color: #404040;
+  color: #737373;
 }
 
 .calendar .calendar-date {
@@ -111,7 +111,7 @@
   background: transparent;
   border: .05rem solid transparent;
   border-radius: 50%;
-  color: #404040;
+  color: #737373;
   cursor: pointer;
   font-size: .7rem;
   height: 1.4rem;
