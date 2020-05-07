@@ -1,5 +1,5 @@
-<a href="https://kingajax.github.io/spectre-dark">
-  <img src="https://picturepan2.github.io/spectre/img/spectre-logo.svg" width="72" height="72">
+<a href="https://kingajax.github.io/Spectre-Dark">
+  <img src="https://kingajax.github.io/Spectre-Dark/img/spectre-logo.svg" width="72" height="72">
 </a>
 
 ## Spectre.css
@@ -20,7 +20,7 @@ Spectre.css is completely free to use.
 There are 5 ways to get started with Spectre CSS framework in your projects. You can either manually install or use NPM, Yarn and Bower.
 
 ### Install manually
-Download the compiled and minified [Spectre CSS files](https://github.com/kingajax/spectre-dark/tree/master/docs/dist). And include `spectre.css` located in `/docs/dist` in your website or Web app &lt;head&gt; part.
+Download the compiled and minified [Spectre CSS files](https://github.com/kingajax/Spectre-Dark/tree/master/docs/dist). And include `spectre.css` located in `/docs/dist` in your website or Web app &lt;head&gt; part.
 
 `<link rel="stylesheet" href="spectre.min.css">`
 
@@ -46,59 +46,59 @@ You can compile your custom version of Spectre.css. Read [the documentation](htt
 
 ### Elements
 
-- [Typography](https://kingajax.github.io/spectre-dark/elements/typography.html)
-- [Tables](https://kingajax.github.io/spectre-dark/elements/tables.html)
-- [Buttons](https://kingajax.github.io/spectre-dark/elements/buttons.html)
-- [Forms](https://kingajax.github.io/spectre-dark/elements/forms.html)
+- [Typography](https://kingajax.github.io/Spectre-Dark/elements/typography.html)
+- [Tables](https://kingajax.github.io/Spectre-Dark/elements/tables.html)
+- [Buttons](https://kingajax.github.io/Spectre-Dark/elements/buttons.html)
+- [Forms](https://kingajax.github.io/Spectre-Dark/elements/forms.html)
 - [Icons.css](https://picturepan2.github.io/icons.css) - CSS ONLY
-- [Labels](https://kingajax.github.io/spectre-dark/elements/labels.html)
-- [Code](https://kingajax.github.io/spectre-dark/elements/code.html)
-- [Media](https://kingajax.github.io/spectre-dark/elements/media.html)
+- [Labels](https://kingajax.github.io/Spectre-Dark/elements/labels.html)
+- [Code](https://kingajax.github.io/Spectre-Dark/elements/code.html)
+- [Media](https://kingajax.github.io/Spectre-Dark/elements/media.html)
 
 ### Layout
-- [Flexbox grid](https://kingajax.github.io/spectre-dark/layout/grid.html)
-- [Responsive](https://kingajax.github.io/spectre-dark/layout/responsive.html)
-- [Hero](https://kingajax.github.io/spectre-dark/layout/hero.html)
-- [Navbar](https://kingajax.github.io/spectre-dark/layout/navbar.html)
+- [Flexbox grid](https://kingajax.github.io/Spectre-Dark/layout/grid.html)
+- [Responsive](https://kingajax.github.io/Spectre-Dark/layout/responsive.html)
+- [Hero](https://kingajax.github.io/Spectre-Dark/layout/hero.html)
+- [Navbar](https://kingajax.github.io/Spectre-Dark/layout/navbar.html)
 
 ### Components
-- [Accordions](https://kingajax.github.io/spectre-dark/components/accordions.html)
-- [Avatars](https://kingajax.github.io/spectre-dark/components/avatars.html)
-- [Badges](https://kingajax.github.io/spectre-dark/components/badges.html)
-- [Breadcrumbs](https://kingajax.github.io/spectre-dark/components/breadcrumbs.html)
-- [Bars](https://kingajax.github.io/spectre-dark/components/bars.html)
-- [Cards](https://kingajax.github.io/spectre-dark/components/cards.html)
-- [Chips](https://kingajax.github.io/spectre-dark/components/chips.html)
-- [Empty states](https://kingajax.github.io/spectre-dark/components/empty.html)
-- [Menu](https://kingajax.github.io/spectre-dark/components/menu.html)
-- [Nav](https://kingajax.github.io/spectre-dark/components/nav.html)
-- [Modals](https://kingajax.github.io/spectre-dark/components/modals.html)
-- [Pagination](https://kingajax.github.io/spectre-dark/components/pagination.html)
-- [Panels](https://kingajax.github.io/spectre-dark/components/panels.html)
-- [Popovers](https://kingajax.github.io/spectre-dark/components/popovers.html)
-- [Steps](https://kingajax.github.io/spectre-dark/components/steps.html)
-- [Tabs](https://kingajax.github.io/spectre-dark/components/tabs.html)
-- [Tiles](https://kingajax.github.io/spectre-dark/components/tiles.html)
-- [Toasts](https://kingajax.github.io/spectre-dark/components/toasts.html)
-- [Tooltips](https://kingajax.github.io/spectre-dark/components/tooltips.html)
+- [Accordions](https://kingajax.github.io/Spectre-Dark/components/accordions.html)
+- [Avatars](https://kingajax.github.io/Spectre-Dark/components/avatars.html)
+- [Badges](https://kingajax.github.io/Spectre-Dark/components/badges.html)
+- [Breadcrumbs](https://kingajax.github.io/Spectre-Dark/components/breadcrumbs.html)
+- [Bars](https://kingajax.github.io/Spectre-Dark/components/bars.html)
+- [Cards](https://kingajax.github.io/Spectre-Dark/components/cards.html)
+- [Chips](https://kingajax.github.io/Spectre-Dark/components/chips.html)
+- [Empty states](https://kingajax.github.io/Spectre-Dark/components/empty.html)
+- [Menu](https://kingajax.github.io/Spectre-Dark/components/menu.html)
+- [Nav](https://kingajax.github.io/Spectre-Dark/components/nav.html)
+- [Modals](https://kingajax.github.io/Spectre-Dark/components/modals.html)
+- [Pagination](https://kingajax.github.io/Spectre-Dark/components/pagination.html)
+- [Panels](https://kingajax.github.io/Spectre-Dark/components/panels.html)
+- [Popovers](https://kingajax.github.io/Spectre-Dark/components/popovers.html)
+- [Steps](https://kingajax.github.io/Spectre-Dark/components/steps.html)
+- [Tabs](https://kingajax.github.io/Spectre-Dark/components/tabs.html)
+- [Tiles](https://kingajax.github.io/Spectre-Dark/components/tiles.html)
+- [Toasts](https://kingajax.github.io/Spectre-Dark/components/toasts.html)
+- [Tooltips](https://kingajax.github.io/Spectre-Dark/components/tooltips.html)
 
 ### Utilities
 
-- [Utilities](https://kingajax.github.io/spectre-dark/utilities.html) - colors, display, divider, loading, position, shapes and text utilities
+- [Utilities](https://kingajax.github.io/Spectre-Dark/utilities.html) - colors, display, divider, loading, position, shapes and text utilities
 
 ### Experimentals
-- [360-Degree Viewer](https://kingajax.github.io/spectre-dark/experimentals/viewer-360.html) - CSS ONLY
-- [Autocomplete](https://kingajax.github.io/spectre-dark/experimentals/autocomplete.html)
-- [Calendars](https://kingajax.github.io/spectre-dark/experimentals/calendars.html)
-- [Carousels](https://kingajax.github.io/spectre-dark/experimentals/carousels.html) - CSS ONLY
-- [Comparison Sliders](https://kingajax.github.io/spectre-dark/experimentals/comparison.html) - CSS ONLY
-- [Filters](https://kingajax.github.io/spectre-dark/experimentals/filters.html) - CSS ONLY
-- [Meters](https://kingajax.github.io/spectre-dark/experimentals/meters.html)
-- [Off-canvas](https://kingajax.github.io/spectre-dark/experimentals/off-canvas.html) - CSS ONLY
-- [Parallax](https://kingajax.github.io/spectre-dark/experimentals/parallax.html) - CSS ONLY
-- [Progress](https://kingajax.github.io/spectre-dark/experimentals/progress.html)
-- [Sliders](https://kingajax.github.io/spectre-dark/experimentals/sliders.html)
-- [Timelines](https://kingajax.github.io/spectre-dark/experimentals/timelines.html)
+- [360-Degree Viewer](https://kingajax.github.io/Spectre-Dark/experimentals/viewer-360.html) - CSS ONLY
+- [Autocomplete](https://kingajax.github.io/Spectre-Dark/experimentals/autocomplete.html)
+- [Calendars](https://kingajax.github.io/Spectre-Dark/experimentals/calendars.html)
+- [Carousels](https://kingajax.github.io/Spectre-Dark/experimentals/carousels.html) - CSS ONLY
+- [Comparison Sliders](https://kingajax.github.io/Spectre-Dark/experimentals/comparison.html) - CSS ONLY
+- [Filters](https://kingajax.github.io/Spectre-Dark/experimentals/filters.html) - CSS ONLY
+- [Meters](https://kingajax.github.io/Spectre-Dark/experimentals/meters.html)
+- [Off-canvas](https://kingajax.github.io/Spectre-Dark/experimentals/off-canvas.html) - CSS ONLY
+- [Parallax](https://kingajax.github.io/Spectre-Dark/experimentals/parallax.html) - CSS ONLY
+- [Progress](https://kingajax.github.io/Spectre-Dark/experimentals/progress.html)
+- [Sliders](https://kingajax.github.io/Spectre-Dark/experimentals/sliders.html)
+- [Timelines](https://kingajax.github.io/Spectre-Dark/experimentals/timelines.html)
 
 ## Browser support
 Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:
@@ -112,4 +112,4 @@ Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make mos
 
 Spectre supports Internet Explorer 10+, but some HTML5 and CSS3 features are not perfectly supported by Internet Explorer.
 
-Designed and built with ♥ by [Yan Zhu](https://twitter.com/picturepan2) and modified by [kingajax](https://github.com/kingajax/spectre-dark). Feel free to submit a pull request. Help is always appreciated.
+Designed and built with ♥ by [Yan Zhu](https://twitter.com/picturepan2) and modified by [kingajax](https://github.com/kingajax/Spectre-Dark). Feel free to submit a pull request. Help is always appreciated.
