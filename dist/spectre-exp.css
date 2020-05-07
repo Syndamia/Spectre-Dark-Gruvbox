@@ -1004,7 +1004,7 @@
 }
 
 .timeline .timeline-item::before {
-  background: #1a1919;
+  background: #212121;
   content: "";
   height: 100%;
   left: 13px;
