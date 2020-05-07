@@ -5,10 +5,10 @@
     margin-bottom: $unit-6;
     position: relative;
     &::before {
-      background: $border-color;
+      background: darken($border-color, 55%);
       content: "";
       height: 100%;
-      left: 11px;
+      left: 13px;
       position: absolute;
       top: $unit-6;
       width: 2px;
@@ -47,6 +47,7 @@
       &.icon-lg {
         background: $primary-color;
         line-height: $line-height;
+        margin-left: -2px;
         &::before {
           content: none;
         }

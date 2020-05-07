@@ -4762,10 +4762,10 @@ a.text-error:visited {
 }
 
 .timeline .timeline-item::before {
-  background: #a6a6a6;
+  background: #1a1919;
   content: "";
   height: 100%;
-  left: 11px;
+  left: 13px;
   position: absolute;
   top: 1.2rem;
   width: 2px;
@@ -4811,6 +4811,7 @@ a.text-error:visited {
 .timeline .timeline-item .timeline-icon.icon-lg {
   background: #5755d9;
   line-height: 1.2rem;
+  margin-left: -2px;
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg::before {
