@@ -665,26 +665,26 @@ html:lang(ko),
 }
 
 .btn.btn-error {
-  background: #e85600;
-  border-color: #d95000;
+  background: #ff2f4b;
+  border-color: #ff203e;
   color: #000;
 }
 
 .btn.btn-error:focus {
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .1rem rgba(255, 47, 75, .2);
 }
 
 .btn.btn-error:focus,
 .btn.btn-error:hover {
-  background: #de5200;
-  border-color: #cf4d00;
+  background: #ff2542;
+  border-color: #ff1635;
   color: #000;
 }
 
 .btn.btn-error:active,
 .btn.btn-error.active {
-  background: #c44900;
-  border-color: #b54300;
+  background: #ff0b2c;
+  border-color: #fb0022;
   color: #000;
 }
 
@@ -915,7 +915,7 @@ textarea.form-input.input-sm {
 
 .has-error .form-input-hint,
 .is-error + .form-input-hint {
-  color: #e85600;
+  color: #ff2f4b;
 }
 
 .form-select {
@@ -1261,15 +1261,15 @@ textarea.form-input.input-sm {
 .form-input.is-error,
 .has-error .form-select,
 .form-select.is-error {
-  background: #fffaf7;
-  border-color: #e85600;
+  background: white;
+  border-color: #ff2f4b;
 }
 
 .has-error .form-input:focus,
 .form-input.is-error:focus,
 .has-error .form-select:focus,
 .form-select.is-error:focus {
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  box-shadow: 0 0 0 .1rem rgba(255, 47, 75, .2);
 }
 
 .has-error .form-checkbox .form-icon,
@@ -1278,7 +1278,7 @@ textarea.form-input.input-sm {
 .form-radio.is-error .form-icon,
 .has-error .form-switch .form-icon,
 .form-switch.is-error .form-icon {
-  border-color: #e85600;
+  border-color: #ff2f4b;
 }
 
 .has-error .form-checkbox input:checked + .form-icon,
@@ -1287,8 +1287,8 @@ textarea.form-input.input-sm {
 .form-radio.is-error input:checked + .form-icon,
 .has-error .form-switch input:checked + .form-icon,
 .form-switch.is-error input:checked + .form-icon {
-  background: #e85600;
-  border-color: #e85600;
+  background: #ff2f4b;
+  border-color: #ff2f4b;
 }
 
 .has-error .form-checkbox input:focus + .form-icon,
@@ -1297,27 +1297,27 @@ textarea.form-input.input-sm {
 .form-radio.is-error input:focus + .form-icon,
 .has-error .form-switch input:focus + .form-icon,
 .form-switch.is-error input:focus + .form-icon {
-  border-color: #e85600; 
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  border-color: #ff2f4b; 
+  box-shadow: 0 0 0 .1rem rgba(255, 47, 75, .2);
 }
 
 .has-error .form-checkbox input:indeterminate + .form-icon,
 .form-checkbox.is-error input:indeterminate + .form-icon {
-  background: #e85600;
-  border-color: #e85600;
+  background: #ff2f4b;
+  border-color: #ff2f4b;
 }
 
 .form-input:not(:placeholder-shown):invalid {
-  border-color: #e85600;
+  border-color: #ff2f4b;
 }
 
 .form-input:not(:placeholder-shown):invalid:focus {
-  background: #fffaf7; 
-  box-shadow: 0 0 0 .1rem rgba(232, 86, 0, .2);
+  background: white; 
+  box-shadow: 0 0 0 .1rem rgba(255, 47, 75, .2);
 }
 
 .form-input:not(:placeholder-shown):invalid + .form-input-hint {
-  color: #e85600;
+  color: #ff2f4b;
 }
 
 .form-input:disabled,
@@ -1396,7 +1396,7 @@ input.disabled + .form-icon {
 }
 
 .label.label-error {
-  background: #e85600;
+  background: #ff2f4b;
   color: #000;
 }
 
@@ -2142,7 +2142,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .avatar .avatar-presence.busy {
-  background: #e85600;
+  background: #ff2f4b;
 }
 
 .avatar .avatar-presence.away {
@@ -2997,8 +2997,8 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .toast.toast-error {
-  background: rgba(232, 86, 0, .95);
-  border-color: #e85600;
+  background: rgba(255, 47, 75, .95);
+  border-color: #ff2f4b;
 }
 
 .toast a {
@@ -3204,16 +3204,16 @@ a.text-warning:visited {
 }
 
 .text-error {
-  color: #e85600 !important;
+  color: #ff2f4b !important;
 }
 
 a.text-error:focus,
 a.text-error:hover {
-  color: #cf4d00;
+  color: #ff1635;
 }
 
 a.text-error:visited {
-  color: #ff6003;
+  color: #ff4961;
 }
 
 .bg-primary {
@@ -3242,7 +3242,7 @@ a.text-error:visited {
 }
 
 .bg-error {
-  background: #e85600 !important;
+  background: #ff2f4b !important;
 }
 
 .c-hand {
@@ -4309,7 +4309,7 @@ a.text-error:visited {
 }
 
 .meter::-webkit-meter-even-less-good-value {
-  background: #e85600;
+  background: #ff2f4b;
 }
 
 .meter::-moz-meter-bar,
@@ -4328,7 +4328,7 @@ a.text-error:visited {
 }
 
 .meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
-  background: #e85600;
+  background: #ff2f4b;
 }
 
 .off-canvas {
