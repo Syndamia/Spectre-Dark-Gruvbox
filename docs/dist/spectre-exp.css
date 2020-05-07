@@ -5,8 +5,8 @@
 
 .form-autocomplete .form-autocomplete-input {
   align-content: flex-start;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-line-pack: start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -62,8 +62,8 @@
   background: #f7f8f9;
   border-top-left-radius: .1rem;
   border-top-right-radius: .1rem;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   font-size: .9rem;
   padding: .4rem;
@@ -71,8 +71,8 @@
 
 .calendar .calendar-header,
 .calendar .calendar-body {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -148,7 +148,7 @@
 .calendar .calendar-date .date-item.active {
   background: #4b48d6;
   border-color: #3634d2;
-  color: #fff;
+  color: #000;
 }
 
 .calendar .calendar-date .date-item.badge::after {
@@ -201,7 +201,7 @@
 .calendar .calendar-range.range-end .date-item {
   background: #4b48d6;
   border-color: #3634d2;
-  color: #fff;
+  color: #000;
 }
 
 .calendar .calendar-range .date-item {
@@ -215,8 +215,8 @@
 .calendar.calendar-lg .calendar-body .calendar-date {
   border-bottom: .05rem solid #dadee4;
   border-right: .05rem solid #dadee4;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   height: 5.5rem;
@@ -356,8 +356,8 @@
 
 .carousel .carousel-nav {
   bottom: .4rem;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: center;
   justify-content: center;
   left: 50%;
@@ -466,7 +466,7 @@
   background: currentColor;
   border-radius: 50%;
   box-shadow: 0 -5px, 0 5px;
-  color: #fff;
+  color: #000;
   content: "";
   height: 3px;
   position: absolute;
@@ -499,7 +499,7 @@
 .comparison-slider .comparison-label {
   background: rgba(48, 55, 66, .5);
   bottom: .8rem;
-  color: #fff;
+  color: #000;
   padding: .2rem .4rem;
   position: absolute;
   -webkit-user-select: none;
@@ -536,7 +536,7 @@
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
   background: #5755d9;
-  color: #fff;
+  color: #000;
 }
 
 .filter .filter-tag#tag-1:checked ~ .filter-body .filter-item:not([data-tag~="tag-1"]),
@@ -555,8 +555,8 @@
 }
 
 .filter .filter-body {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -620,8 +620,8 @@
 }
 
 .off-canvas {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-flow: nowrap;
   flex-flow: nowrap;
   height: 100%;
@@ -726,9 +726,9 @@
 
 .parallax .parallax-front {
   align-items: center;
-  color: #fff;
-  display: flex;
+  color: #000;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   height: 100%;
@@ -916,6 +916,7 @@
   border-radius: 50%;
   height: .6rem;
   margin-top: -.25rem;
+  -webkit-transition: transform .2s;
   transition: transform .2s;
   width: .6rem;
 }
@@ -925,6 +926,7 @@
   border: 0;
   border-radius: 50%;
   height: .6rem;
+  -moz-transition: transform .2s;
   transition: transform .2s;
   width: .6rem;
 }
@@ -934,6 +936,7 @@
   border: 0;
   border-radius: 50%;
   height: .6rem;
+  -ms-transition: transform .2s;
   transition: transform .2s;
   width: .6rem;
 }
@@ -994,8 +997,8 @@
 }
 
 .timeline .timeline-item {
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   margin-bottom: 1.2rem;
   position: relative;
 }
@@ -1024,7 +1027,7 @@
 .timeline .timeline-item .timeline-icon {
   align-items: center;
   border-radius: 50%;
-  color: #fff;
+  color: #000;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -1058,8 +1061,8 @@
 
 .viewer-360 {
   align-items: center;
-  display: flex;
   display: -ms-flexbox;
+  display: flex;
   -ms-flex-align: center;
   -ms-flex-direction: column;
   flex-direction: column;
