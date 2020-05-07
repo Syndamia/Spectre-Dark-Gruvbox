@@ -16,7 +16,7 @@
 }
 
 .divider {
-  border-top: $border-width solid $border-color-light;
+  border-top: $border-width solid darken($border-color-light, 60%);
   height: $border-width;
   margin: $unit-2 0;
 
@@ -30,7 +30,7 @@
   padding: $unit-4;
 
   &::before {
-    border-left: $border-width solid $border-color;
+    border-left: $border-width solid darken($border-color-light, 60%);
     bottom: $unit-2;
     content: "";
     display: block;

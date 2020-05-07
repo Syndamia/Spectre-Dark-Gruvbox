@@ -972,21 +972,21 @@
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;

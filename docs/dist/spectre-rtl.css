@@ -3388,7 +3388,7 @@ a.text-error:visited {
 }
 
 .divider {
-  border-top: .05rem solid #bababa;
+  border-top: .05rem solid #212121;
   height: .05rem;
   margin: .4rem 0;
 }
@@ -3403,7 +3403,7 @@ a.text-error:visited {
 }
 
 .divider-vert::before {
-  border-left: .05rem solid #a6a6a6;
+  border-left: .05rem solid #212121;
   bottom: .4rem;
   content: "";
   display: block;
@@ -4730,21 +4730,21 @@ a.text-error:visited {
 }
 
 .slider::-webkit-slider-runnable-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
-  background: #050505;
+  background: #1c1c1c;
   border-radius: .1rem;
   height: .1rem;
   width: 100%;

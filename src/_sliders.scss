@@ -76,19 +76,19 @@
 
   // Slider Track
   &::-webkit-slider-runnable-track {
-    background: $bg-color-dark;
+    background: lighten($bg-color-dark, 9%);
     border-radius: $border-radius;
     height: $unit-h;
     width: 100%;
   }
   &::-moz-range-track {
-    background: $bg-color-dark;
+    background: lighten($bg-color-dark, 9%);
     border-radius: $border-radius;
     height: $unit-h;
     width: 100%;
   }
   &::-ms-track {
-    background: $bg-color-dark;
+    background: lighten($bg-color-dark, 9%);
     border-radius: $border-radius;
     height: $unit-h;
     width: 100%;
