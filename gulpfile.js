@@ -34,7 +34,7 @@ function docsPug() {
     .pipe(gulp.dest('./docs/'));
 }
 
-function docs () {
+function docsBuild () {
 
   return gulp.src(paths.doc)
     .pipe(sass({outputStyle: 'compact', precision: 10})
@@ -73,6 +73,6 @@ function watch()
 }
 
 exports.watch = watch;
-exports.docs = docs;
+exports.docs = gulp.series(docsBuild, docsPug, docsScss);
 exports.build = build;
 exports.default = build;
