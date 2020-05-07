@@ -379,6 +379,7 @@ h2.accent,
 h3.accent,
 h4.accent,
 h5.accent,
+h6.accent,
 span.accent,
 p.accent {
   color: #00ffab !important;
@@ -1435,6 +1436,16 @@ input.disabled + .form-icon {
 }
 
 code {
+  background: #0a0a0a;
+  border: 1px solid #1a1919;
+  border-radius: .1rem;
+  color: #d73e48;
+  font-size: 85%; 
+  line-height: 1.25;
+  padding: .1rem .2rem;
+}
+
+code.bright {
   background: #fcf2f2;
   border-radius: .1rem;
   color: #d73e48;
@@ -1460,6 +1471,7 @@ code {
 
 .code code {
   background: #0d0d0d;
+  border: none;
   color: inherit;
   display: block;
   line-height: 1.5;
