@@ -69,7 +69,7 @@ function build() {
 
 function watch()
 {
-  return gulp.watch(["./**/*.scss", "./**/*.pug"], gulp.parallel(build, docs, docsPug, docsScss));
+  return gulp.watch(["./**/*.scss", "./**/*.pug"], gulp.parallel(build, docsBuild, docsPug, docsScss));
 }
 
 exports.watch = watch;
