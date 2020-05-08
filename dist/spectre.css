@@ -649,7 +649,7 @@ html:lang(ko),
 .btn.btn-primary {
   background: #5755d9;
   border-color: #4b48d6;
-  color: #000;
+  color: #d1d1d1;
 }
 
 .btn.btn-primary:focus,

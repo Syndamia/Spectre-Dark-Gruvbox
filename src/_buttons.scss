@@ -53,7 +53,7 @@
   &.btn-primary {
     background: $primary-color;
     border-color: $primary-color-dark;
-    color: $light-color;
+    color: darken($body-font-color, 18%);
     &:focus,
     &:hover {
       background: darken($primary-color-dark, 2%);
