@@ -8,7 +8,7 @@
       background: darken($border-color, 52%);
       content: "";
       height: 100%;
-      left: 13px;
+      left: 0.7em;
       position: absolute;
       top: $unit-6;
       width: 2px;
@@ -47,7 +47,6 @@
       &.icon-lg {
         background: $primary-color;
         line-height: $line-height;
-        margin-left: -2px;
         &::before {
           content: none;
         }

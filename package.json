@@ -28,9 +28,9 @@
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest",
     "gulp-csscomb": "latest",
+    "gulp-pug": "latest",
     "gulp-rename": "latest",
     "gulp-sass": "latest",
-    "gulp-pug": "latest",
     "jstransformer-highlight": "latest",
     "jstransformer-markdown-it": "latest"
   },

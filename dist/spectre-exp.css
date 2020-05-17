@@ -1007,7 +1007,7 @@
   background: #212121;
   content: "";
   height: 100%;
-  left: 13px;
+  left: .7em;
   position: absolute;
   top: 1.2rem;
   width: 2px;
@@ -1053,7 +1053,6 @@
 .timeline .timeline-item .timeline-icon.icon-lg {
   background: #5755d9;
   line-height: 1.2rem;
-  margin-left: -2px;
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg::before {
