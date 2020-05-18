@@ -2,8 +2,8 @@
 .btn {
   appearance: none;
   background: $bg-color-light;
-  border: $border-width solid $primary-color;
-  border-radius: $border-radius;
+  border: $border-width * 1.8 solid $primary-color;
+  border-radius: $border-radius * 5;
   color: $primary-color;
   cursor: pointer;
   display: inline-block;
@@ -24,20 +24,20 @@
   &:focus,
   &:hover {
     background: none;
-    border-color: #90acff;
-    color: #5a9bf0;
+    border-color: $body-font-color;
+    color: $body-font-color;
     text-decoration: none;
   }
   &:active,
   &.active {
-    background: $primary-color-dark;
-    border-color: darken($primary-color-dark, 5%);
+    background: $body-font-color;
+    border-color: darken($body-font-color, 16%);
     color: $light-color;
     text-decoration: none;
     &.loading {
       &::after {
-        border-bottom-color: $light-color;
-        border-left-color: $light-color;
+        border-bottom-color: $dark-color;
+        border-left-color: $dark-color;
       }
     }
   }
@@ -53,11 +53,11 @@
   &.btn-primary {
     background: $primary-color;
     border-color: $primary-color-dark;
-    color: darken($body-font-color, 18%);
+    color: $light-color;
     &:focus,
     &:hover {
-      background: darken($primary-color-dark, 2%);
-      border-color: darken($primary-color-dark, 5%);
+      background: $body-font-color;
+      border-color: $body-font-color;
       color: $light-color;
     }
     &:active,
@@ -92,7 +92,7 @@
     &:hover,
     &:active,
     &.active {
-      color: $link-color-dark;
+      color: $body-font-color;
     }
   }
 

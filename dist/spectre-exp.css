@@ -589,15 +589,15 @@
 }
 
 .meter::-webkit-meter-optimum-value {
-  background: #32b643;
+  background: #24e48a;
 }
 
 .meter::-webkit-meter-suboptimum-value {
-  background: #ffb700;
+  background: #ff0091;
 }
 
 .meter::-webkit-meter-even-less-good-value {
-  background: #ff2f4b;
+  background: #fa4173;
 }
 
 .meter::-moz-meter-bar,
@@ -608,15 +608,15 @@
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
-  background: #32b643;
+  background: #24e48a;
 }
 
 .meter:-moz-meter-sub-optimum::-moz-meter-bar {
-  background: #ffb700;
+  background: #ff0091;
 }
 
 .meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
-  background: #ff2f4b;
+  background: #fa4173;
 }
 
 .off-canvas {
