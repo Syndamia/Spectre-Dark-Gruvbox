@@ -591,8 +591,8 @@ html:lang(ko),
   -moz-appearance: none;
   appearance: none;
   background: #000;
-  border: .09rem solid #5755d9;
-  border-radius: .4rem;
+  border: .085rem solid #5755d9;
+  border-radius: .16rem;
   color: #5755d9;
   cursor: pointer;
   display: inline-block;
