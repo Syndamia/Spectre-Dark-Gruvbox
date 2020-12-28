@@ -553,3 +553,9 @@ input {
 .form-inline {
   display: inline-block;
 }
+
+// Make inputs a bit more consistent
+input, input:focus, textarea.form-input {
+  color: $body-font-color-light !important;
+  background-color: $body-bg !important;
+}
